@@ -1,0 +1,13 @@
+to create empty project
+npx create-expo-app@latest -e with-router ./        ---> create a blank project
+npm install expo     ---> install globally the expo-cli
+npx expo start      ---> to run the app
+
+npm install -g ngrok        --> add permissions to run the tunnel
+npx expo start --tunnel     ---> run the app in a tunner way 
+
+to publish
+
+npm install -g eas-cli
+eas login (use Expo website credential)
+eas update (this will publish, similar to github)
